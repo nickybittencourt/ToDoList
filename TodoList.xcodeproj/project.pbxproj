@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AAB068C025300EC5007B7258 /* ToDoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB068BF25300EC5007B7258 /* ToDoViewController.swift */; };
 		AAB94C9B252FE1300009FA2D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB94C9A252FE1300009FA2D /* AppDelegate.swift */; };
 		AAB94C9D252FE1300009FA2D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB94C9C252FE1300009FA2D /* SceneDelegate.swift */; };
 		AAB94C9F252FE1300009FA2D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB94C9E252FE1300009FA2D /* ViewController.swift */; };
@@ -15,6 +16,9 @@
 		AAB94CA7252FE1310009FA2D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AAB94CA5252FE1310009FA2D /* LaunchScreen.storyboard */; };
 		AAB94CB2252FE1310009FA2D /* TodoListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB94CB1252FE1310009FA2D /* TodoListTests.swift */; };
 		AAB94CBD252FE1310009FA2D /* TodoListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB94CBC252FE1310009FA2D /* TodoListUITests.swift */; };
+		AAB94CCE252FE24D0009FA2D /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB94CCD252FE24D0009FA2D /* ToDo.swift */; };
+		AAB94CD6252FE91C0009FA2D /* Checkbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB94CD5252FE91C0009FA2D /* Checkbox.swift */; };
+		AAB94CDB252FEFB50009FA2D /* CheckTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAB94CDA252FEFB50009FA2D /* CheckTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AAB068BF25300EC5007B7258 /* ToDoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoViewController.swift; sourceTree = "<group>"; };
 		AAB94C97252FE1300009FA2D /* TodoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAB94C9A252FE1300009FA2D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AAB94C9C252FE1300009FA2D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +54,9 @@
 		AAB94CB8252FE1310009FA2D /* TodoListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TodoListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAB94CBC252FE1310009FA2D /* TodoListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListUITests.swift; sourceTree = "<group>"; };
 		AAB94CBE252FE1310009FA2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAB94CCD252FE24D0009FA2D /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
+		AAB94CD5252FE91C0009FA2D /* Checkbox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Checkbox.swift; sourceTree = "<group>"; };
+		AAB94CDA252FEFB50009FA2D /* CheckTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,10 +110,14 @@
 				AAB94C9A252FE1300009FA2D /* AppDelegate.swift */,
 				AAB94C9C252FE1300009FA2D /* SceneDelegate.swift */,
 				AAB94C9E252FE1300009FA2D /* ViewController.swift */,
+				AAB068BF25300EC5007B7258 /* ToDoViewController.swift */,
+				AAB94CCD252FE24D0009FA2D /* ToDo.swift */,
 				AAB94CA0252FE1300009FA2D /* Main.storyboard */,
+				AAB94CDA252FEFB50009FA2D /* CheckTableViewCell.swift */,
 				AAB94CA3252FE1310009FA2D /* Assets.xcassets */,
 				AAB94CA5252FE1310009FA2D /* LaunchScreen.storyboard */,
 				AAB94CA8252FE1310009FA2D /* Info.plist */,
+				AAB94CD5252FE91C0009FA2D /* Checkbox.swift */,
 			);
 			path = TodoList;
 			sourceTree = "<group>";
@@ -258,9 +270,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAB94CDB252FEFB50009FA2D /* CheckTableViewCell.swift in Sources */,
 				AAB94C9F252FE1300009FA2D /* ViewController.swift in Sources */,
 				AAB94C9B252FE1300009FA2D /* AppDelegate.swift in Sources */,
 				AAB94C9D252FE1300009FA2D /* SceneDelegate.swift in Sources */,
+				AAB94CCE252FE24D0009FA2D /* ToDo.swift in Sources */,
+				AAB94CD6252FE91C0009FA2D /* Checkbox.swift in Sources */,
+				AAB068C025300EC5007B7258 /* ToDoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
